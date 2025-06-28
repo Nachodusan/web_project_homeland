@@ -1,0 +1,101 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+body {
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  width: 50%z;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.lead__title {
+  color: #fff;
+  font-size: 96px;
+}
+
+.lead__subtitle {
+}
+
+.lead__image-container {
+}
+
+.lead__image {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  color: #fff;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro__subtitle {
+  font-size: 54px;
+}
+
+.intro__text {
+  font-size: 24px;
+}
+
+.intro__author {
+  text-align: right;
+  font-size: 24px;
+}
+
+.intro__text--secondary {
+  font-size: 16px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+}
+
+.footer__content {
+}
+
+.footer__text {
+  font-size: 14px;
+}
+
+/* Para pantallas menores a 768px */
+@media (max-width: 544px) {
+}
+
+@media (max-width: 768px) {
+}
