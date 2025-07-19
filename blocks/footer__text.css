@@ -1,0 +1,9 @@
+.footer__text {
+  font-size: 14px;
+}
+
+@media (max-width: 544px) {
+  .footer__text {
+    font-size: 12px;
+  }
+}

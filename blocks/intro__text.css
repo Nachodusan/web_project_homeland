@@ -1,0 +1,9 @@
+.intro__text {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    font-size: 18px;
+  }
+}

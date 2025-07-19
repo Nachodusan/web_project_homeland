@@ -1,0 +1,13 @@
+.intro {
+  color: #fff;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 90%;
+  }
+}

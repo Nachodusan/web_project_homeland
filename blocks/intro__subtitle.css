@@ -1,0 +1,10 @@
+.intro__subtitle {
+  font-size: 54px;
+}
+
+@media (max-width: 768px) {
+  .intro__subtitle {
+    font-size: 45px;
+    line-height: 49px;
+  }
+}

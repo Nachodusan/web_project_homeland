@@ -1,5 +1,19 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../blocks/header__logo.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/lead__title.css");
+@import url("../blocks/lead__subtitle.css");
+@import url("../blocks/lead__image.css");
+@import url("../blocks/lead__image-container.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/intro__subtitle.css");
+@import url("../blocks/intro__text.css");
+@import url("../blocks/intro__text--secondary.css");
+@import url("../blocks/intro__author.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/footer__content.css");
+@import url("../blocks/footer__text.css");
 
 :root {
   font-feature-settings: "liga" 1, "calt" 1;
@@ -11,125 +25,8 @@ body {
   flex-direction: column;
 }
 
-.header__logo {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.lead {
-  color: #fff;
-  text-align: center;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-
-.lead__title {
-  color: #fff;
-  font-size: 96px;
-}
-
-.lead__subtitle {
-}
-
-.lead__image-container {
-}
-
-.lead__image {
-  margin-top: 10px;
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.intro {
-  color: #fff;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.intro__subtitle {
-  font-size: 54px;
-}
-
-.intro__text {
-  font-size: 24px;
-}
-
-.intro__author {
-  text-align: right;
-  font-size: 24px;
-}
-
-.intro__text--secondary {
-  font-size: 16px;
-}
-
-footer {
-  color: #fff;
-  text-align: center;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer {
-}
-
-.footer__content {
-}
-
-.footer__text {
-  font-size: 14px;
-}
-
-/* Para pantallas menores a 768px */
-@media (max-width: 768px) {
-  .lead__title {
-    font-size: 75px;
-    line-height: 79px;
-  }
-  .lead__subtitle{
-    font-size: 30px;
-    line-height: 36px;
-  }
-  }
-
-  .lead,
-  .intro {
-    width: 90%;
-  }
-  .
-
-  .intro__subtitle {
-    font-size: 45px;
-    line-height: 49px;
-  }
-
-  .intro__text,
-  .intro__author {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 544px) {
-  .lead__title {
-    font-size: 36px;
-  }
-
-  .footer__text {
-    font-size: 12px;
-  }
 }
