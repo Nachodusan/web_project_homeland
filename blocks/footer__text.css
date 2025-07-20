@@ -1,5 +1,7 @@
 .footer__text {
   font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
 }
 
 @media (max-width: 544px) {
