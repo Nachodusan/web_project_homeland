@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# node_modules (si usas Node.js)
+node_modules/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Build
+dist/
+build/

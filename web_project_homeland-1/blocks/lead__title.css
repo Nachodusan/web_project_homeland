@@ -1,0 +1,17 @@
+.lead__title {
+  color: #fff;
+  font-size: 96px;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+  }
+}
+
+@media (max-width: 544px) {
+  .lead__title {
+    font-size: 36px;
+  }
+}
