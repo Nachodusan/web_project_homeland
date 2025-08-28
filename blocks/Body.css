@@ -1,0 +1,15 @@
+:root {
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+body {
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
