@@ -3,3 +3,18 @@
   justify-content: center;
   /* Agrega estilos si los necesitas */
 }
+
+.footer__text {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+.footer__content {
+  /* Agrega estilos si los necesitas */
+}
+
+@media (max-width: 544px) {
+  .footer__text {
+    font-size: 12px;
+  }
+}

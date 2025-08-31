@@ -8,8 +8,36 @@
   width: 50%;
 }
 
+.lead__subtitle {
+  /* Agrega estilos si los necesitas */
+}
+
+.lead__image-container {
+  /* Agrega estilos si los necesitas */
+}
+
+.lead__image {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.lead__title {
+  color: #fff;
+  font-size: 96px;
+}
+
 @media (max-width: 768px) {
-  .lead {
-    width: 90%;
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+  }
+}
+
+@media (max-width: 544px) {
+  .lead__title {
+    font-size: 36px;
   }
 }
