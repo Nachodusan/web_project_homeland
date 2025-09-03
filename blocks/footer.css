@@ -1,20 +1,37 @@
 .footer {
   display: flex;
   justify-content: center;
-  /* Agrega estilos si los necesitas */
+  margin-top: 92px;
+  padding: 0 16px;
+}
+
+.footer__content {
+  max-width: 1184px;
+  width: 100%;
 }
 
 .footer__text {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 24px 0;
 }
-.footer__content {
-  /* Agrega estilos si los necesitas */
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+  }
 }
 
 @media (max-width: 544px) {
+  .footer {
+    margin-top: 64px;
+  }
+
   .footer__text {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 24px 0;
   }
 }
